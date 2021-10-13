@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="247.0">com.awei.factory.factorymethod.pizzastore.order.LDOrderPizza</node>
+    <node x="337.0" y="0.0">com.awei.factory.factorymethod.pizzastore.pizza.Pizza</node>
+    <node x="104.0" y="163.0">com.awei.factory.factorymethod.pizzastore.order.OrderPizza</node>
+    <node x="594.0" y="84.0">com.awei.factory.factorymethod.pizzastore.pizza.BJPepperPizza</node>
+    <node x="198.0" y="84.0">com.awei.factory.factorymethod.pizzastore.pizza.LDCheesePizza</node>
+    <node x="188.0" y="247.0">com.awei.factory.factorymethod.pizzastore.order.BJOrderPizza</node>
+    <node x="0.0" y="84.0">com.awei.factory.factorymethod.pizzastore.pizza.LDPepperPizza</node>
+    <node x="396.0" y="84.0">com.awei.factory.factorymethod.pizzastore.pizza.BJCheesePizza</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.awei.factory.factorymethod.pizzastore.pizza.LDCheesePizza" target="com.awei.factory.factorymethod.pizzastore.pizza.Pizza">
+      <point x="0.0" y="-17.0" />
+      <point x="287.0" y="64.0" />
+      <point x="373.75" y="64.0" />
+      <point x="-12.25" y="17.0" />
+    </edge>
+    <edge source="com.awei.factory.factorymethod.pizzastore.order.BJOrderPizza" target="com.awei.factory.factorymethod.pizzastore.order.OrderPizza">
+      <point x="0.0" y="-17.0" />
+      <point x="272.0" y="222.0" />
+      <point x="215.0" y="222.0" />
+      <point x="37.0" y="17.0" />
+    </edge>
+    <edge source="com.awei.factory.factorymethod.pizzastore.pizza.BJPepperPizza" target="com.awei.factory.factorymethod.pizzastore.pizza.Pizza">
+      <point x="0.0" y="-17.0" />
+      <point x="683.0" y="54.0" />
+      <point x="422.75" y="54.0" />
+      <point x="36.75" y="17.0" />
+    </edge>
+    <edge source="com.awei.factory.factorymethod.pizzastore.pizza.LDPepperPizza" target="com.awei.factory.factorymethod.pizzastore.pizza.Pizza">
+      <point x="0.0" y="-17.0" />
+      <point x="89.0" y="54.0" />
+      <point x="349.25" y="54.0" />
+      <point x="-36.75" y="17.0" />
+    </edge>
+    <edge source="com.awei.factory.factorymethod.pizzastore.order.LDOrderPizza" target="com.awei.factory.factorymethod.pizzastore.order.OrderPizza">
+      <point x="0.0" y="-17.0" />
+      <point x="84.0" y="222.0" />
+      <point x="141.0" y="222.0" />
+      <point x="-37.0" y="17.0" />
+    </edge>
+    <edge source="com.awei.factory.factorymethod.pizzastore.pizza.BJCheesePizza" target="com.awei.factory.factorymethod.pizzastore.pizza.Pizza">
+      <point x="0.0" y="-17.0" />
+      <point x="485.0" y="64.0" />
+      <point x="398.25" y="64.0" />
+      <point x="12.25" y="17.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="556.0" y="71.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
