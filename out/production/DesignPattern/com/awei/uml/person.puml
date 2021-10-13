@@ -1,9 +1,0 @@
-@startuml
-'https://plantuml.com/class-diagram
-class Person {
-Integer id
-String name
-setName(String name)
-String getName()
-}
-@enduml
