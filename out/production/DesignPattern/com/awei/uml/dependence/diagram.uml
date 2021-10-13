@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">com.awei.uml.dependence.Department</node>
+    <node x="454.0" y="0.0">com.awei.uml.dependence.Person</node>
+    <node x="326.0" y="0.0">com.awei.uml.dependence.IDCard</node>
+    <node x="168.0" y="0.0">com.awei.uml.dependence.PersonDao</node>
+    <node x="128.0" y="84.0">com.awei.uml.dependence.PersonServiceBean</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.awei.uml.dependence.PersonServiceBean" target="com.awei.uml.dependence.Person">
+      <point x="87.19999999999996" y="-64.5" />
+      <point x="324.19999999999993" y="64.0" />
+      <point x="508.0" y="64.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.awei.uml.dependence.PersonServiceBean" target="com.awei.uml.dependence.Department">
+      <point x="-87.19999999999999" y="-64.5" />
+      <point x="149.8" y="64.0" />
+      <point x="37.0" y="64.0" />
+      <point x="-37.0" y="17.0" />
+    </edge>
+    <edge source="com.awei.uml.dependence.PersonServiceBean" target="com.awei.uml.dependence.PersonDao">
+      <point x="-2.8421709430404007E-14" y="-64.5" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.awei.uml.dependence.PersonServiceBean" target="com.awei.uml.dependence.IDCard">
+      <point x="43.599999999999994" y="-64.5" />
+      <point x="280.6" y="54.0" />
+      <point x="380.0" y="54.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="518.5" y="185.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
