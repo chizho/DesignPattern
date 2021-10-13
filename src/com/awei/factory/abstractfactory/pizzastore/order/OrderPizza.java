@@ -1,6 +1,7 @@
-package com.awei.factory.factorymethod.pizzastore.order;
+package com.awei.factory.abstractfactory.pizzastore.order;
 
-import com.awei.factory.factorymethod.pizzastore.pizza.Pizza;
+
+import com.awei.factory.abstractfactory.pizzastore.pizza.Pizza;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,19 +17,21 @@ import java.io.InputStreamReader;
  * @date 2021/10/13 13:54
  */
 //订购披萨类
-public abstract class OrderPizza {
+public  class OrderPizza {
+    AbsFactory factory;
 
-    //定义一个抽象方法,createPizza,让各个工厂子类自己实现
-    abstract Pizza createPizza(String orderType);
+    public OrderPizza(AbsFactory factory) {
+        setFactory(factory);
+    }
 
-    //构造器
-    public OrderPizza() {
-        Pizza pizza= null;
-        String orderType;
+    private void setFactory(AbsFactory factory){
+        Pizza pizza = null;
+        String orderType="";//用户输入
+        this.factory = factory;
         do {
             orderType = getType();
-            //抽象方法,由工厂子类完成
-            pizza = createPizza(orderType);
+            //factory 可能是北京的工厂子类 也可能是伦敦的工厂子类
+            pizza = factory.createPizza(orderType);
             if (pizza != null) {
                 //输出pizza 制作过程
                 pizza.prepare();
@@ -36,9 +39,10 @@ public abstract class OrderPizza {
                 pizza.cut();
                 pizza.box();
             } else {
+                System.out.println("订购失败");
                 break;
             }
-        } while (true);
+        }while (true);
     }
 
     //可以获取客户希望订购的披萨类型
