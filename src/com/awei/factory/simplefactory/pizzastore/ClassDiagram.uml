@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="227.48636363636365" y="262.0">com.awei.factory.simplefactory.pizzastore.order.OrderPizza</node>
+    <node x="233.2022727272727" y="0.0">com.awei.factory.simplefactory.pizzastore.pizza.Pizza</node>
+    <node x="254.7363636363636" y="178.0">com.awei.factory.simplefactory.pizzastore.order.SimpleFactory</node>
+    <node x="10.5" y="94.0">com.awei.factory.simplefactory.pizzastore.pizza.CheesePizza</node>
+    <node x="356.5" y="94.0">com.awei.factory.simplefactory.pizzastore.pizza.PepperPizza</node>
+    <node x="269.73636363636365" y="346.0">com.awei.factory.simplefactory.pizzastore.order.PizzaStore</node>
+    <node x="188.5" y="94.0">com.awei.factory.simplefactory.pizzastore.pizza.GreekPizza</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.awei.factory.simplefactory.pizzastore.order.OrderPizza" target="com.awei.factory.simplefactory.pizzastore.order.SimpleFactory">
+      <point x="0.0" y="-17.0" />
+      <point x="301.48636363636365" y="237.0" />
+      <point x="284.4030303030303" y="237.0" />
+      <point x="-59.333333333333314" y="17.0" />
+    </edge>
+    <edge source="com.awei.factory.simplefactory.pizzastore.pizza.PepperPizza" target="com.awei.factory.simplefactory.pizzastore.pizza.Pizza">
+      <point x="0.0" y="-17.0" />
+      <point x="435.5" y="74.0" />
+      <point x="301.80227272727274" y="74.0" />
+      <point x="19.600000000000023" y="17.0" />
+    </edge>
+    <edge source="com.awei.factory.simplefactory.pizzastore.order.OrderPizza" target="com.awei.factory.simplefactory.pizzastore.pizza.Pizza">
+      <point x="-49.33333333333334" y="-17.0" />
+      <point x="252.15303030303028" y="237.0" />
+      <point x="0.0" y="237.0" />
+      <point x="0.0" y="54.0" />
+      <point x="243.00227272727273" y="54.0" />
+      <point x="-39.19999999999999" y="17.0" />
+    </edge>
+    <edge source="com.awei.factory.simplefactory.pizzastore.pizza.GreekPizza" target="com.awei.factory.simplefactory.pizzastore.pizza.Pizza">
+      <point x="0.0" y="-17.0" />
+      <point x="262.5" y="74.0" />
+      <point x="282.2022727272727" y="74.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.awei.factory.simplefactory.pizzastore.pizza.CheesePizza" target="com.awei.factory.simplefactory.pizzastore.pizza.Pizza">
+      <point x="0.0" y="-17.0" />
+      <point x="89.5" y="64.0" />
+      <point x="262.6022727272727" y="64.0" />
+      <point x="-19.600000000000023" y="17.0" />
+    </edge>
+    <edge source="com.awei.factory.simplefactory.pizzastore.order.SimpleFactory" target="com.awei.factory.simplefactory.pizzastore.pizza.Pizza">
+      <point x="66.74999999999999" y="-17.0" />
+      <point x="410.4863636363636" y="158.0" />
+      <point x="525.0" y="158.0" />
+      <point x="525.0" y="64.0" />
+      <point x="321.4022727272727" y="64.0" />
+      <point x="39.19999999999999" y="17.0" />
+    </edge>
+    <edge source="com.awei.factory.simplefactory.pizzastore.order.SimpleFactory" target="com.awei.factory.simplefactory.pizzastore.pizza.PepperPizza">
+      <point x="22.25" y="-17.0" />
+      <point x="365.9863636363636" y="148.0" />
+      <point x="435.5" y="148.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.awei.factory.simplefactory.pizzastore.order.SimpleFactory" target="com.awei.factory.simplefactory.pizzastore.pizza.GreekPizza">
+      <point x="-22.25" y="-17.0" />
+      <point x="321.4863636363636" y="148.0" />
+      <point x="262.5" y="148.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.awei.factory.simplefactory.pizzastore.order.SimpleFactory" target="com.awei.factory.simplefactory.pizzastore.pizza.CheesePizza">
+      <point x="-66.75" y="-17.0" />
+      <point x="276.9863636363636" y="158.0" />
+      <point x="89.5" y="158.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.awei.factory.simplefactory.pizzastore.order.PizzaStore" target="com.awei.factory.simplefactory.pizzastore.order.OrderPizza">
+      <point x="-37.0" y="-17.0" />
+      <point x="306.73636363636365" y="321.0" />
+      <point x="301.48636363636365" y="321.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+    <edge source="com.awei.factory.simplefactory.pizzastore.order.PizzaStore" target="com.awei.factory.simplefactory.pizzastore.order.SimpleFactory">
+      <point x="37.0" y="-17.0" />
+      <point x="380.73636363636365" y="321.0" />
+      <point x="385.98636363636365" y="321.0" />
+      <point x="385.98636363636365" y="237.0" />
+      <point x="403.06969696969696" y="237.0" />
+      <point x="59.33333333333336" y="17.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="556.0" y="89.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
