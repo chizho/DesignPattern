@@ -9,7 +9,7 @@ import com.awei.factory.abstractfactory.pizzastore.pizza.*;
  * @version 1.0
  * @date 2021/10/13 17:15
  */
-//北京工厂子类
+//伦敦工厂子类
 public class LDFactory implements AbsFactory {
     @Override
     public Pizza createPizza(String orderType) {
