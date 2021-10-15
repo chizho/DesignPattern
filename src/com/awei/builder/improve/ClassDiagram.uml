@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="178.0" y="84.0">com.awei.builder.improve.HeightBuilding</node>
+    <node x="91.5" y="0.0">com.awei.builder.improve.HouseBuilder</node>
+    <node x="0.0" y="242.0">com.awei.builder.improve.House</node>
+    <node x="0.0" y="163.0">com.awei.builder.improve.HouseDirector</node>
+    <node x="223.0" y="163.0">com.awei.builder.improve.Client</node>
+    <node x="0.0" y="84.0">com.awei.builder.improve.CommonHouse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.awei.builder.improve.CommonHouse" target="com.awei.builder.improve.HouseBuilder">
+      <point x="0.0" y="-17.0" />
+      <point x="79.0" y="59.0" />
+      <point x="133.5" y="59.0" />
+      <point x="-42.0" y="17.0" />
+    </edge>
+    <edge source="com.awei.builder.improve.HeightBuilding" target="com.awei.builder.improve.HouseBuilder">
+      <point x="0.0" y="-17.0" />
+      <point x="272.0" y="59.0" />
+      <point x="217.5" y="59.0" />
+      <point x="42.0" y="17.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="543.5" y="49.5" />
+  <SelectedNodes>
+    <node>com.awei.builder.improve.Client</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
