@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">com.awei.adapter.interfaceadapter.Interface1</node>
+    <node x="0.0" y="84.0">com.awei.adapter.interfaceadapter.AbsAdapter</node>
+    <node x="0.0" y="163.0">com.awei.adapter.interfaceadapter.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.awei.adapter.interfaceadapter.AbsAdapter" target="com.awei.adapter.interfaceadapter.Interface1">
+      <point x="0.0" y="-17.0" />
+      <point x="0.0" y="17.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="540.0" y="54.0" />
+  <SelectedNodes>
+    <node>com.awei.adapter.interfaceadapter.AbsAdapter</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
