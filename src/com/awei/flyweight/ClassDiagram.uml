@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="144.69791666666666" y="133.0">com.awei.flyweight.WebSite</node>
+    <node x="0.0" y="242.0">com.awei.flyweight.ConcreteWebSite</node>
+    <node x="0.3020833333333428" y="375.0">com.awei.flyweight.WebSiteFactory</node>
+    <node x="150.30208333333334" y="0.0">com.awei.flyweight.User</node>
+    <node x="152.625" y="508.0">com.awei.flyweight.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.awei.flyweight.Client" target="com.awei.flyweight.User">
+      <point x="58.125" y="-29.5" />
+      <point x="288.25" y="483.0" />
+      <point x="291.66666666666663" y="483.0" />
+      <point x="291.66666666666663" y="108.0" />
+      <point x="251.13541666666669" y="108.0" />
+      <point x="40.33333333333334" y="41.5" />
+    </edge>
+    <edge source="com.awei.flyweight.ConcreteWebSite" target="com.awei.flyweight.User">
+      <point x="-49.5" y="-41.5" />
+      <point x="49.5" y="108.0" />
+      <point x="170.46875" y="108.0" />
+      <point x="-40.33333333333334" y="41.5" />
+    </edge>
+    <edge source="com.awei.flyweight.WebSiteFactory" target="com.awei.flyweight.ConcreteWebSite">
+      <point x="-87.33333333333331" y="-41.5" />
+      <point x="43.96875000000003" y="350.0" />
+      <point x="49.5" y="350.0" />
+      <point x="-49.5" y="41.5" />
+    </edge>
+    <edge source="com.awei.flyweight.ConcreteWebSite" target="com.awei.flyweight.WebSite">
+      <point x="49.5" y="-41.5" />
+      <point x="148.5" y="217.0" />
+      <point x="166.69791666666666" y="217.0" />
+      <point x="-44.0" y="29.5" />
+    </edge>
+    <edge source="com.awei.flyweight.Client" target="com.awei.flyweight.WebSiteFactory">
+      <point x="-58.125" y="-29.5" />
+      <point x="172.0" y="483.0" />
+      <point x="65.80208333333334" y="483.0" />
+      <point x="-65.5" y="41.5" />
+    </edge>
+    <edge source="com.awei.flyweight.Client" target="com.awei.flyweight.WebSite">
+      <point x="19.375" y="-29.5" />
+      <point x="249.5" y="483.0" />
+      <point x="278.46875" y="483.0" />
+      <point x="278.46875" y="217.0" />
+      <point x="254.69791666666666" y="217.0" />
+      <point x="44.0" y="29.5" />
+    </edge>
+    <edge source="com.awei.flyweight.WebSite" target="com.awei.flyweight.User">
+      <point x="0.0" y="-29.5" />
+      <point x="0.0" y="41.5" />
+    </edge>
+    <edge source="com.awei.flyweight.WebSiteFactory" target="com.awei.flyweight.WebSite">
+      <point x="87.33333333333331" y="-41.5" />
+      <point x="218.63541666666666" y="350.0" />
+      <point x="211.00347222222223" y="350.0" />
+      <point x="0.0" y="29.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-10.5" y="283.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
