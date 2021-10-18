@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="asm-commons">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/awei/proxy/cglib/asm-commons.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/awei/proxy/cglib/asm-tree.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/awei/proxy/cglib/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/awei/proxy/cglib/cglib-2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
