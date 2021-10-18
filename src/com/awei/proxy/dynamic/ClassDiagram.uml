@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">com.awei.proxy.dynamic.ITeacherDao</node>
+    <node x="217.0" y="213.0">com.awei.proxy.dynamic.Client</node>
+    <node x="5.0" y="109.0">com.awei.proxy.dynamic.TeacherDao</node>
+    <node x="0.0" y="213.0">com.awei.proxy.dynamic.ProxyFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.awei.proxy.dynamic.TeacherDao" target="com.awei.proxy.dynamic.ITeacherDao">
+      <point x="0.0" y="-29.5" />
+      <point x="0.0" y="29.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="540.0" y="78.0" />
+  <SelectedNodes>
+    <node>com.awei.proxy.dynamic.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
