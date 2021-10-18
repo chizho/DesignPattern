@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="163.0">com.awei.proxy.staticproxy.Client</node>
+    <node x="0.0" y="84.0">com.awei.proxy.staticproxy.TeacherDaoProxy</node>
+    <node x="116.5" y="0.0">com.awei.proxy.staticproxy.ITeacherDao</node>
+    <node x="218.0" y="84.0">com.awei.proxy.staticproxy.TeacherDao</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.awei.proxy.staticproxy.TeacherDaoProxy" target="com.awei.proxy.staticproxy.ITeacherDao">
+      <point x="0.0" y="-17.0" />
+      <point x="99.0" y="59.0" />
+      <point x="156.0" y="59.0" />
+      <point x="-39.5" y="17.0" />
+    </edge>
+    <edge source="com.awei.proxy.staticproxy.TeacherDao" target="com.awei.proxy.staticproxy.ITeacherDao">
+      <point x="0.0" y="-17.0" />
+      <point x="292.0" y="59.0" />
+      <point x="235.0" y="59.0" />
+      <point x="39.5" y="17.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="540.0" y="78.0" />
+  <SelectedNodes>
+    <node>com.awei.proxy.staticproxy.Client</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
